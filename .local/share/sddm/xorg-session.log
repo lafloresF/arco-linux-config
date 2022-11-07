@@ -1,0 +1,25 @@
+[ 07/11/22 17:36:04.221 parse_config_libconfig WARN ] The refresh-rate option has been deprecated. Please remove it from your configuration file. If you encounter any problems without this feature, please feel free to open a bug report
+File does not exist: /home/luis/.config/autostart/arcolinux-welcome-app.desktop
+
+** (xfce4-power-manager:28034): WARNING **: 17:36:04.622: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:28034): WARNING **: 17:36:04.623: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+
+(xfce4-power-manager:28034): xfce4-power-manager-WARNING **: 17:36:04.624: Unable to connect to session manager : No se pudo conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
+
+(xfce4-power-manager:28034): GLib-GObject-WARNING **: 17:36:04.665: ../glib/gobject/gsignal.c:2620: signal 'Changed' is invalid for instance '0x56447d3518e0' of type 'GDBusProxy'
+
+** (xfce4-clipman:28035): WARNING **: 17:36:04.786: Unable to register GApplication: Ya existe un objeto exportado para la interfaz org.gtk.Application en /org/xfce/clipman
+
+(xfce4-clipman:28035): GLib-GIO-CRITICAL **: 17:36:04.786: g_application_get_is_remote: assertion 'application->priv->is_registered' failed
+
+(xfce4-clipman:28035): GLib-WARNING **: 17:36:04.786: g_set_application_name() called multiple times
+
+(xfce4-power-manager:28034): xfce4-power-manager-WARNING **: 17:36:04.963: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:28034): WARNING **: 17:36:05.026: No outputs have backlight property
+
+(xfce4-power-manager:28034): xfce4-power-manager-WARNING **: 17:36:05.035: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: El objeto no existe en la ruta «/org/freedesktop/UPower/KbdBacklight»

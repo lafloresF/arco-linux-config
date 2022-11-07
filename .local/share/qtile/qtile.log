@@ -1,0 +1,248 @@
+2022-11-07 13:10:24,292 ERROR libqtile net.py:poll():L167 Net widget errored while polling:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/net.py", line 140, in poll
+    down = new_stats[intf]["down"] - self.stats[intf]["down"]
+KeyError: 'wlo1'
+2022-11-07 13:10:24,332 WARNING libqtile base.py:on_done():L804 poll() returned None, not rescheduling
+2022-11-07 13:21:51,627 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-11-07 13:22:00,609 ERROR libqtile net.py:poll():L167 Net widget errored while polling:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/net.py", line 140, in poll
+    down = new_stats[intf]["down"] - self.stats[intf]["down"]
+KeyError: 'wlo1'
+2022-11-07 13:22:00,631 WARNING libqtile base.py:on_done():L804 poll() returned None, not rescheduling
+2022-11-07 13:39:05,415 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-11-07 13:39:06,719 ERROR libqtile net.py:poll():L167 Net widget errored while polling:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/net.py", line 140, in poll
+    down = new_stats[intf]["down"] - self.stats[intf]["down"]
+KeyError: 'wlo1'
+2022-11-07 13:39:06,727 WARNING libqtile base.py:on_done():L804 poll() returned None, not rescheduling
+2022-11-07 13:41:10,471 ERROR libqtile manager.py:process_key_event():L407 KB command error right: No such command
+2022-11-07 13:43:38,823 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-11-07 13:43:40,206 ERROR libqtile net.py:poll():L167 Net widget errored while polling:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/net.py", line 140, in poll
+    down = new_stats[intf]["down"] - self.stats[intf]["down"]
+KeyError: 'wlo1'
+2022-11-07 13:43:40,209 WARNING libqtile base.py:on_done():L804 poll() returned None, not rescheduling
+2022-11-07 13:44:06,193 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-11-07 13:44:07,450 ERROR libqtile net.py:poll():L167 Net widget errored while polling:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/net.py", line 140, in poll
+    down = new_stats[intf]["down"] - self.stats[intf]["down"]
+KeyError: 'wlo1'
+2022-11-07 13:44:07,463 WARNING libqtile base.py:on_done():L804 poll() returned None, not rescheduling
+2022-11-07 13:44:33,848 ERROR libqtile manager.py:cmd_restart():L1132 Preventing restart because of a configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 1130, in cmd_restart
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/luis/.config/qtile/settings/theme.py", line 35, in <module>
+    colors = load_theme()
+  File "/home/luis/.config/qtile/settings/theme.py", line 28, in load_theme
+    raise Exception(f'"{theme_file}" does not exist')
+Exception: "/home/luis/.config/qtile/themes/one-dark.json" does not exist
+2022-11-07 13:44:33,883 WARNING libqtile utils.py:send_notification():L236 dbus-next is not installed. Unable to send notifications.
+2022-11-07 13:44:37,370 ERROR libqtile manager.py:cmd_restart():L1132 Preventing restart because of a configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 1130, in cmd_restart
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/luis/.config/qtile/settings/theme.py", line 35, in <module>
+    colors = load_theme()
+  File "/home/luis/.config/qtile/settings/theme.py", line 28, in load_theme
+    raise Exception(f'"{theme_file}" does not exist')
+Exception: "/home/luis/.config/qtile/themes/one-dark.json" does not exist
+2022-11-07 13:44:37,371 WARNING libqtile utils.py:send_notification():L236 dbus-next is not installed. Unable to send notifications.
+2022-11-07 13:44:43,711 ERROR libqtile manager.py:cmd_restart():L1132 Preventing restart because of a configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 1130, in cmd_restart
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/luis/.config/qtile/settings/theme.py", line 35, in <module>
+    colors = load_theme()
+  File "/home/luis/.config/qtile/settings/theme.py", line 28, in load_theme
+    raise Exception(f'"{theme_file}" does not exist')
+Exception: "/home/luis/.config/qtile/themes/one-dark.json" does not exist
+2022-11-07 13:44:43,711 WARNING libqtile utils.py:send_notification():L236 dbus-next is not installed. Unable to send notifications.
+2022-11-07 13:44:45,090 ERROR libqtile manager.py:cmd_restart():L1132 Preventing restart because of a configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 1130, in cmd_restart
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/luis/.config/qtile/settings/theme.py", line 35, in <module>
+    colors = load_theme()
+  File "/home/luis/.config/qtile/settings/theme.py", line 28, in load_theme
+    raise Exception(f'"{theme_file}" does not exist')
+Exception: "/home/luis/.config/qtile/themes/one-dark.json" does not exist
+2022-11-07 13:44:45,090 WARNING libqtile utils.py:send_notification():L236 dbus-next is not installed. Unable to send notifications.
+2022-11-07 13:44:46,160 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `redshift`
+2022-11-07 13:44:47,432 ERROR libqtile manager.py:cmd_restart():L1132 Preventing restart because of a configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 1130, in cmd_restart
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/luis/.config/qtile/settings/theme.py", line 35, in <module>
+    colors = load_theme()
+  File "/home/luis/.config/qtile/settings/theme.py", line 28, in load_theme
+    raise Exception(f'"{theme_file}" does not exist')
+Exception: "/home/luis/.config/qtile/themes/one-dark.json" does not exist
+2022-11-07 13:44:47,432 WARNING libqtile utils.py:send_notification():L236 dbus-next is not installed. Unable to send notifications.
+2022-11-07 13:44:49,589 ERROR libqtile manager.py:cmd_restart():L1132 Preventing restart because of a configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 1130, in cmd_restart
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/luis/.config/qtile/settings/theme.py", line 35, in <module>
+    colors = load_theme()
+  File "/home/luis/.config/qtile/settings/theme.py", line 28, in load_theme
+    raise Exception(f'"{theme_file}" does not exist')
+Exception: "/home/luis/.config/qtile/themes/one-dark.json" does not exist
+2022-11-07 13:44:49,589 WARNING libqtile utils.py:send_notification():L236 dbus-next is not installed. Unable to send notifications.
+2022-11-07 13:44:50,402 ERROR libqtile manager.py:cmd_restart():L1132 Preventing restart because of a configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 1130, in cmd_restart
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/luis/.config/qtile/settings/theme.py", line 35, in <module>
+    colors = load_theme()
+  File "/home/luis/.config/qtile/settings/theme.py", line 28, in load_theme
+    raise Exception(f'"{theme_file}" does not exist')
+Exception: "/home/luis/.config/qtile/themes/one-dark.json" does not exist
+2022-11-07 13:44:50,402 WARNING libqtile utils.py:send_notification():L236 dbus-next is not installed. Unable to send notifications.
+2022-11-07 13:44:54,425 ERROR libqtile manager.py:cmd_restart():L1132 Preventing restart because of a configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 1130, in cmd_restart
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/luis/.config/qtile/settings/theme.py", line 35, in <module>
+    colors = load_theme()
+  File "/home/luis/.config/qtile/settings/theme.py", line 28, in load_theme
+    raise Exception(f'"{theme_file}" does not exist')
+Exception: "/home/luis/.config/qtile/themes/one-dark.json" does not exist
+2022-11-07 13:44:54,426 WARNING libqtile utils.py:send_notification():L236 dbus-next is not installed. Unable to send notifications.
+2022-11-07 13:45:06,303 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-11-07 13:45:07,619 ERROR libqtile net.py:poll():L167 Net widget errored while polling:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/net.py", line 140, in poll
+    down = new_stats[intf]["down"] - self.stats[intf]["down"]
+KeyError: 'wlo1'
+2022-11-07 13:45:07,625 WARNING libqtile base.py:on_done():L804 poll() returned None, not rescheduling
+2022-11-07 13:45:25,904 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-11-07 13:45:27,114 ERROR libqtile net.py:poll():L167 Net widget errored while polling:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/net.py", line 140, in poll
+    down = new_stats[intf]["down"] - self.stats[intf]["down"]
+KeyError: 'wlo1'
+2022-11-07 13:45:27,123 WARNING libqtile base.py:on_done():L804 poll() returned None, not rescheduling
+2022-11-07 13:45:40,574 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-11-07 13:45:41,985 ERROR libqtile net.py:poll():L167 Net widget errored while polling:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/net.py", line 140, in poll
+    down = new_stats[intf]["down"] - self.stats[intf]["down"]
+KeyError: 'wlo1'
+2022-11-07 13:45:41,994 WARNING libqtile base.py:on_done():L804 poll() returned None, not rescheduling
+2022-11-07 13:46:11,977 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-11-07 13:46:13,281 ERROR libqtile net.py:poll():L167 Net widget errored while polling:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/net.py", line 140, in poll
+    down = new_stats[intf]["down"] - self.stats[intf]["down"]
+KeyError: 'wlo1'
+2022-11-07 13:46:13,292 WARNING libqtile base.py:on_done():L804 poll() returned None, not rescheduling
+2022-11-07 13:46:25,431 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-11-07 13:46:26,935 ERROR libqtile net.py:poll():L167 Net widget errored while polling:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/net.py", line 140, in poll
+    down = new_stats[intf]["down"] - self.stats[intf]["down"]
+KeyError: 'wlo1'
+2022-11-07 13:46:26,946 WARNING libqtile base.py:on_done():L804 poll() returned None, not rescheduling
+2022-11-07 13:46:39,419 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-11-07 13:46:40,427 ERROR libqtile net.py:poll():L167 Net widget errored while polling:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/net.py", line 140, in poll
+    down = new_stats[intf]["down"] - self.stats[intf]["down"]
+KeyError: 'wlo1'
+2022-11-07 13:46:40,438 WARNING libqtile base.py:on_done():L804 poll() returned None, not rescheduling
+2022-11-07 13:46:51,967 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-11-07 13:46:53,314 ERROR libqtile net.py:poll():L167 Net widget errored while polling:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/net.py", line 140, in poll
+    down = new_stats[intf]["down"] - self.stats[intf]["down"]
+KeyError: 'wlo1'
+2022-11-07 13:46:53,323 WARNING libqtile base.py:on_done():L804 poll() returned None, not rescheduling
+2022-11-07 14:14:07,420 ERROR libqtile manager.py:process_key_event():L407 KB command error right: No such command
+2022-11-07 14:15:21,462 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-11-07 14:17:07,005 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-11-07 14:22:55,014 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-11-07 14:45:59,643 ERROR libqtile manager.py:process_key_event():L407 KB command error shuffle_up: No such command
+2022-11-07 14:46:00,860 ERROR libqtile manager.py:process_key_event():L407 KB command error shuffle_down: No such command
+2022-11-07 16:44:34,631 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-11-07 16:45:08,504 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-11-07 17:15:43,897 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-11-07 17:35:30,430 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2022-11-07 17:35:55,802 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
